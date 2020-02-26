@@ -1,0 +1,4 @@
+[plugin]
+description = "A dokku plugin to specify a particular maven pom file to execute."
+version = "0.1.0"
+[plugin.config]
