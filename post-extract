@@ -4,6 +4,8 @@ source "$PLUGIN_CORE_AVAILABLE_PATH/common/functions"
 
 APP="$1"; TMP_WORK_DIR="$2"; REV="$3"
 
+dokku_log_info2 "Looking for .dokku-pom"
+
 [[ ! -f "$TMP_WORK_DIR/.dokku-pom" ]] && exit
 
 dokku_log_info2 "POM selection plugin detected"
